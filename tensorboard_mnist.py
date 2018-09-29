@@ -35,4 +35,4 @@ with tf.Session() as sess:
     projector.visualize_embeddings(tf.summary.FileWriter(LOG_DIR), config)
 
     # for calling the tensorboard you should be in that drive and call the entire path
-    # tensorboard --logdir=/Technical_works/tensorflow/mnist-tensorboard/log-1 --port=6006
+    # tensorboard --logdir=C:/Users/uid41630/.PyCharmCE2017.2/config/scratches/mnist-tensorboard/log-1 --port=6006
